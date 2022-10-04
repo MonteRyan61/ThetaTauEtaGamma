@@ -1,0 +1,202 @@
+@keyframes slideEffectHeader {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+body{
+    background-color: white;
+    margin:1rem;
+    padding: 0;
+}
+
+header{
+    margin:0;
+    padding:0.5rem;
+    font-size: 2em;
+    text-align: center;
+    animation: .5s ease-in 0s 1 slideEffectHeader;
+}
+h1{
+    margin:0;
+    color: #FFCC33;
+}
+h5{
+    margin: 0;
+    color: #FFCC33;
+}
+
+.flex-menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.flex-body{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-grow: 1;
+
+    background-color: #EDEAB5;
+
+    padding: .5rem;
+    margin:.5rem;
+
+    font-size: 1.5em;
+    color: black;
+
+    /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
+    transition: background-color 1s ease-out 25ms 
+}
+
+.flex-item{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-grow: 1;
+
+    background-color: #EDEAB5;
+
+    padding: .5rem;
+    margin: .5rem;
+
+    font-size: 1.5em;
+    color: black;
+
+    border-radius: 70% 70%;
+
+    /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
+    transition: background-color 1s ease-out 25ms 
+}
+
+.flex-menu-project{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+    transition: background-color 1s ease-out 25ms 
+}
+
+.flex-home{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-home-item{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    padding:3%;
+
+    width: 27%;
+}
+
+.date{
+    font-size:10vw;
+    margin-top:.5rem;
+    margin-bottom:0;
+}
+.under-date{
+    font-size:1.5vw;
+}
+
+.pillars{
+    font-size:4vw;
+    margin-top:.5rem;
+    margin-bottom:0;
+}
+
+.under-pillars{
+    font-size:2vw;
+    margin-top:.5rem;
+    margin-bottom:0;
+}
+
+
+#We-Are{
+    font-size:8vw;
+    color:black;
+}
+
+#about-blurb{
+    font-size:2vw;
+    color:black;
+}
+
+
+.flex-project-item{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    flex-grow: 1;
+
+    background-color: #c5cac8;
+    border-radius: 30% 70%;
+    width: 33%;
+    padding: .5rem;
+    margin:.5rem;
+
+    font-size:2vw;
+    color: black;
+    /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
+    transition: background-color 1s ease-out 25ms 
+}
+
+#about-me{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-grow: 1;
+
+
+    padding: .5rem;
+    margin:.5rem;
+    color: black;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+img {
+    max-width: 35%;
+    height: auto\10;
+    width: auto\12;
+}
+
+
+#Home:hover{
+    background-color: #8B0000;
+}
+
+#About:hover{
+    background-color: #8B0000;
+}
+
+#Events:hover{
+    background-color: #8B0000;
+}
+
+#Members:hover{
+    background-color: #8B0000;
+}
+
+#name{
+    color: black;
+}
+
+#name:hover{
+    background-color: #827f74;
+    border-radius: 40% 70%;
+    transition: background-color 1s ease-out 25ms 
+}
