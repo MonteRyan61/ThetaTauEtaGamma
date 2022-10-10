@@ -8,18 +8,19 @@
 }
 
 body{
-    background-color: white;
+    background-color: #EEEEEE;
     margin:1rem;
-    padding: 0;
+    padding: 2rem;
 }
 
 header{
     margin:0;
     padding:0.5rem;
-    font-size: 2em;
+    font-size: 4vw;
     text-align: center;
     animation: .5s ease-in 0s 1 slideEffectHeader;
 }
+
 h1{
     margin:0;
     color: #FFCC33;
@@ -58,6 +59,7 @@ h5{
     flex-flow: row;
     justify-content: center;
     flex-grow: 1;
+    box-shadow: 10px 10px #BBBBBB;
 
     background-color: #EDEAB5;
 
@@ -73,14 +75,6 @@ h5{
     transition: background-color 1s ease-out 25ms 
 }
 
-.flex-menu-project{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    
-    transition: background-color 1s ease-out 25ms 
-}
 
 .flex-home{
     display: flex;
@@ -100,8 +94,22 @@ h5{
     width: 27%;
 }
 
+.slideShowLandscape{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+img{
+    border-radius: 30% 30%;
+    object-fit: contain;
+    
+}
+
 .date{
-    font-size:10vw;
+    font-size:8vw;
     margin-top:.5rem;
     margin-bottom:0;
 }
@@ -110,26 +118,50 @@ h5{
 }
 
 .pillars{
-    font-size:4vw;
+    font-size: min(max(16px, 3vw), 26px);
     margin-top:.5rem;
     margin-bottom:0;
 }
 
 .under-pillars{
-    font-size:2vw;
+    font-size: min(max(12px, 2vw), 22px);
     margin-top:.5rem;
     margin-bottom:0;
 }
 
+.about-eta-gamma{
+    font-size: min(max(12px, 3vw), 22px);
+    display:flex;
+    justify-content: center;
+    width:50%;
+}
 
 #We-Are{
     display:flex;
     justify-content: center;
-    font-size:8vw;
+    font-size:4vw;
+    width: 100%;
     color:black;
 }
 
 #about-blurb{
+    font-size: min(max(12px, 3vw), 22px);
+    color:black;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 50%;
+}
+
+#Our-Story{
+    display:flex;
+    justify-content: center;
+    font-size:4vw;
+    width: 100%;
+    color:black;
+}
+
+#Our-Story-Blurb{
     font-size:2vw;
     color:black;
 }
@@ -153,18 +185,6 @@ h5{
     transition: background-color 1s ease-out 25ms 
 }
 
-#about-me{
-    display:flex;
-    flex-flow: row;
-    justify-content: center;
-    flex-grow: 1;
-
-
-    padding: .5rem;
-    margin:.5rem;
-    color: black;
-}
-
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -177,8 +197,10 @@ img {
 }
 
 
-#Home:hover{
+#About{
     background-color: #8B0000;
+    color:#EEEEEE;;
+    box-shadow: 5px 5px #BBBBBB;
 }
 
 #About:hover{
@@ -193,25 +215,3 @@ img {
     background-color: #8B0000;
 }
 
-#name{
-    color: black;
-}
-
-#name:hover{
-    background-color: #827f74;
-    border-radius: 40% 70%;
-    transition: background-color 1s ease-out 25ms 
-}
-
-#calendar {
-    display:flex;
-    justify-content: center;
-    max-width: 1100px;
-    margin: 40px auto;
-}
-
-
-/* This changes the google calendar embedded code I used this post as a resource https://stackoverflow.com/questions/49306347/how-to-customize-google-calendar-with-css#:~:text=Another%20option%20is%20to%20use,once%20the%20calendar%20is%20embedded. */
-/* iframe{
-    filter: invert(.9) saturate(0.5) hue-rotate(145deg);
- } */

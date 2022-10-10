@@ -1,0 +1,19 @@
+#Events{
+    background-color: #8B0000;
+    color:#EEEEEE;;
+    box-shadow: 5px 5px #BBBBBB;
+}
+
+#About{
+    background-color: #EDEAB5;
+    box-shadow: 10px 10px #BBBBBB;
+    color:black;
+}
+
+
+#calendar {
+    display:flex;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 40px auto;
+}

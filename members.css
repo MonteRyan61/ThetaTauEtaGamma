@@ -1,0 +1,52 @@
+#Members{
+    background-color: #8B0000;
+    color:#EEEEEE;;
+    box-shadow: 5px 5px #BBBBBB;
+}
+
+#About{
+    background-color: #EDEAB5;
+    box-shadow: 10px 10px #BBBBBB;
+    color:black;
+}
+
+#Event{
+    background-color: #EDEAB5;
+    box-shadow: 10px 10px #BBBBBB;
+    color:black;
+}
+
+
+.member-container{
+    margin: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.member{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: #BBBBBB;
+    border-radius: 10% 30%;
+    box-shadow: 1vw 1vw #888888;
+    margin:2%;
+    padding:1%;
+    width: 33%;
+
+    font-size: 1.5vw;
+}
+
+.member-photo{
+    float: left;
+    width: 20vw;
+    height: 18vw;
+    object-fit: cover;
+    border-radius: 10% 30%;
+}
