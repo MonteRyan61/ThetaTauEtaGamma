@@ -3,62 +3,67 @@ let memberImage = [];
 let memberDesc = [];
 let memberMajor = [];
 
+
+//Ryan Monteleone
+memberImage[0] = "members/ryanMonteleone.png";
+memberDesc[0] = "Ryan Monteleone";
+memberMajor[0] = "CTD"
 //Whitney Knopp
-memberImage[0] = "members/whitneyKnopp.png";
-memberDesc[0] = "Whitney Knopp";
-memberMajor[0] = "EVEN"
-//Connor Gilpatrick 
-memberImage[1] = "members/connorMember.png";
-memberDesc[1] = "Connor Gilpatrick";
+memberImage[1] = "members/whitneyKnopp.png";
+memberDesc[1] = "Whitney Knopp";
 memberMajor[1] = "EVEN"
+//Connor Gilpatrick 
+memberImage[2] = "members/connorMember.png";
+memberDesc[2] = "Connor Gilpatrick";
+memberMajor[2] = "EVEN"
 //Matt King
-memberImage[2] = "members/mattMember.png";
-memberDesc[2] = "Matt King";
-memberMajor[2] = "ECEN"
+memberImage[3] = "members/mattMember.png";
+memberDesc[3] = "Matt King";
+memberMajor[3] = "ECEN"
 //Nicholas Monahan
-memberImage[3] = "members/monahanMember.png";
-memberDesc[3] = "Nicholas Monahan";
-memberMajor[3] = "MCEN"
-//Peter Arnold
-memberImage[4] = "members/peterArnold.png";
-memberDesc[4] = "Peter Arnold";
+memberImage[4] = "members/monahanMember.png";
+memberDesc[4] = "Nicholas Monahan";
 memberMajor[4] = "MCEN"
-//Dane Robinson
-memberImage[5] = "members/daneRobinson.png";
-memberDesc[5] = "Dane Robinson";
+//Peter Arnold
+memberImage[5] = "members/peterArnold.png";
+memberDesc[5] = "Peter Arnold";
 memberMajor[5] = "MCEN"
-//Nic Kallemeyn
-memberImage[6] = "members/nicKallemeyn.png";
-memberDesc[6] = "Nic Kallemeyn";
+//Dane Robinson
+memberImage[6] = "members/daneRobinson.png";
+memberDesc[6] = "Dane Robinson";
 memberMajor[6] = "MCEN"
+//Nic Kallemeyn
+memberImage[7] = "members/nicKallemeyn.png";
+memberDesc[7] = "Nic Kallemeyn";
+memberMajor[7] = "MCEN"
 //Jacqueline Hall
-memberImage[7] = "members/jacquelineHall.png";
-memberDesc[7] = "Jacqueline Hall";
-memberMajor[7] = "EVEN"
+memberImage[8] = "members/jacquelineHall.png";
+memberDesc[8] = "Jacqueline Hall";
+memberMajor[8] = "EVEN"
 //Riley Dressel
-memberImage[8] = "members/rileyDressel.png";
-memberDesc[8] = "Riley Dressel";
-memberMajor[8] = "MCEN"
-//Deryus Jijina
-memberImage[8] = "members/deryusJijina.png";
-memberDesc[8] = "Deryus Jijina";
-memberMajor[8] = "CSCI"
-//Bia Santos
-memberImage[9] = "members/biaSantos.png";
-memberDesc[9] = "Bia Santos";
+memberImage[9] = "members/rileyDressel.png";
+memberDesc[9] = "Riley Dressel";
 memberMajor[9] = "MCEN"
+//Deryus Jijina
+memberImage[10] = "members/deryusJijina.png";
+memberDesc[10] = "Deryus Jijina";
+memberMajor[10] = "CSCI"
+//Bia Santos
+memberImage[11] = "members/biaSantos.png";
+memberDesc[11] = "Bia Santos";
+memberMajor[11] = "MCEN"
 //Elias Forey
-memberImage[10] = "members/eliasForey.png";
-memberDesc[10] = "Elias Forey";
-memberMajor[10] = "ECEE"
+memberImage[12] = "members/eliasForey.png";
+memberDesc[12] = "Elias Forey";
+memberMajor[12] = "ECEE"
 //Sophie Ramsey
-memberImage[11] = "members/sophieRamsey.png";
-memberDesc[11] = "Sophie Ramsey";
-memberMajor[11] = "BMEN"
+memberImage[13] = "members/sophieRamsey.png";
+memberDesc[13] = "Sophie Ramsey";
+memberMajor[13] = "BMEN"
 //Anvie Gowrishankar
-memberImage[11] = "members/anvieGowrishankar.png";
-memberDesc[11] = "Anvie Gowrishankar";
-memberMajor[11] = "ASEN"
+memberImage[14] = "members/anvieGowrishankar.png";
+memberDesc[14] = "Anvie Gowrishankar";
+memberMajor[14] = "ASEN"
 
 
 let memberPhotoClass = document.querySelectorAll(".member-photo");
