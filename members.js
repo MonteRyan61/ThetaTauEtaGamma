@@ -3,10 +3,10 @@ let memberImage = [];
 let memberDesc = [];
 let memberMajor = [];
 
-//Nicholas Monteleone 
-memberImage[0] = "members/nickMember.png";
-memberDesc[0] = "Nicholas Monteleone";
-memberMajor[0] = "CHEM"
+//Whitney Knopp
+memberImage[0] = "members/whitneyKnopp.png";
+memberDesc[0] = "Whitney Knopp";
+memberMajor[0] = "EVEN"
 //Connor Gilpatrick 
 memberImage[1] = "members/connorMember.png";
 memberDesc[1] = "Connor Gilpatrick";
@@ -55,6 +55,10 @@ memberMajor[10] = "ECEE"
 memberImage[11] = "members/sophieRamsey.png";
 memberDesc[11] = "Sophie Ramsey";
 memberMajor[11] = "BMEN"
+//Anvie Gowrishankar
+memberImage[11] = "members/anvieGowrishankar.png";
+memberDesc[11] = "Anvie Gowrishankar";
+memberMajor[11] = "ASEN"
 
 
 let memberPhotoClass = document.querySelectorAll(".member-photo");
