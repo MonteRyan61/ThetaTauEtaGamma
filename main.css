@@ -23,11 +23,19 @@ header{
 
 h1{
     margin:0;
-    color: #FFCC33;
+    color: black;
+    font-family: 'Tahoma', serif;
+}
+h2{
+    font-family: 'Tahoma', serif;
+}
+h3{
+    font-family: 'Tahoma', serif;
 }
 h5{
     margin: 0;
-    color: #FFCC33;
+    color: black;
+    font-family: 'Tahoma', serif;
 }
 
 .flex-menu{
@@ -76,7 +84,7 @@ h5{
 }
 
 
-.flex-home{
+.flex-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -94,6 +102,21 @@ h5{
     width: 27%;
 }
 
+.flex-half-item{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    padding:3%;
+
+    width: 45%;
+}
+
+#history{
+    font-size: min(max(12px, 3vw), 22px);
+}
+
 .slideShowLandscape{
     display: flex;
     flex-flow: column;
@@ -101,11 +124,18 @@ h5{
     align-items: center;
     width: 100%;
 }
+.slideShowVertical{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #8B0000;
+}
 
 img{
     border-radius: 30% 30%;
     object-fit: contain;
-    
 }
 
 .date{
@@ -148,7 +178,7 @@ img{
     font-size: min(max(12px, 3vw), 22px);
     color:black;
     display:flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: center;
     width: 50%;
 }
@@ -183,6 +213,10 @@ img{
     color: black;
     /* https://blog.hubspot.com/website/css-hover-animation for the transition hover effect idea */
     transition: background-color 1s ease-out 25ms 
+}
+
+p{
+    font-family: Times New Roman, serif;
 }
 
 a:link { text-decoration: none; }
