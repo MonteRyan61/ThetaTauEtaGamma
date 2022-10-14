@@ -120,7 +120,7 @@ h5{
 
 #slideShowLandscape{
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -243,3 +243,8 @@ img {
     background-color: #8B0000;
 }
 
+
+button{
+    padding:.5vw;
+    margin: .5vw;
+}

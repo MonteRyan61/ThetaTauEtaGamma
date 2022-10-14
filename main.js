@@ -1,6 +1,6 @@
 let currHorizontalImg = 0;
 let currVerticalImg = 0;
-let interval = 2000;
+let interval = 5000;
 let horizontalImage = [];
 let verticalImage = [];
 
@@ -42,3 +42,21 @@ function setHeightForLandscapeSlide() {
     setTimeout("setHeightForLandscapeSlide()", 340);
 }
 document.addEventListener('DOMContentLoaded', setHeightForLandscapeSlide());
+
+//Add the ability to go left or right on a slideshow
+let leftButton = document.getElementById("leftButton");
+leftButton.innerHTML = '◀';
+leftButton.addEventListener("click", leftLandscape);
+function leftLandscape() {
+    console.log("Click");
+    currHorizontalImg > 0 ? currHorizontalImg-- : currHorizontalImg = horizontalImage.length - 1;
+    horizontalImageChange.src = horizontalImage[currHorizontalImg];
+    
+}
+let rightButton = document.getElementById("rightButton");
+rightButton.innerHTML = '▶';
+rightButton.addEventListener("click", rightLandscape);
+function rightLandscape() {
+    currHorizontalImg < (horizontalImage.length - 1) ? currHorizontalImg++ : currHorizontalImg = 0;
+    horizontalImageChange.src = horizontalImage[currHorizontalImg];
+}
