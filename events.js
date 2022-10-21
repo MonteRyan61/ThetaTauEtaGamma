@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
       // prevents the current tab from navigating
       arg.jsEvent.preventDefault();
     }
-
   });
   calendar.render();
 });

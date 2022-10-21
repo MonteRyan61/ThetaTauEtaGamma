@@ -43,7 +43,27 @@ function setHeightForLandscapeSlide() {
 }
 document.addEventListener('DOMContentLoaded', setHeightForLandscapeSlide());
 
-//Add the ability to go left or right on a slideshow
+
+//Add the ability to go left or right on a  Vertical slideshow
+let leftButtonVertical = document.getElementById("leftButtonVertical");
+leftButtonVertical.innerHTML = '◀';
+leftButtonVertical.addEventListener("click", leftVertical);
+function leftVertical() {
+    console.log(currVerticalImg);
+    currVerticalImg > 0 ? currVerticalImg-- : currVerticalImg = verticalImage.length - 1;
+    verticalImageChange.src = verticalImage[currVerticalImg];
+    
+}
+let rightButtonVertical = document.getElementById("rightButtonVertical");
+rightButtonVertical.innerHTML = '▶';
+rightButtonVertical.addEventListener("click", rightVertical);
+function rightVertical() {
+    console.log(currVerticalImg);
+    currVerticalImg < (verticalImage.length - 1) ? currVerticalImg++ : currVerticalImg = 0;
+    verticalImageChange.src = verticalImage[currVerticalImg];
+}
+
+//Add the ability to go left or right on a Horizontal slideshow
 let leftButton = document.getElementById("leftButton");
 leftButton.innerHTML = '◀';
 leftButton.addEventListener("click", leftLandscape);
